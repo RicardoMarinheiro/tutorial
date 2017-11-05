@@ -139,7 +139,8 @@ namespace MvcMovie.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                // return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index");
             }
             return View(movie);
         }
